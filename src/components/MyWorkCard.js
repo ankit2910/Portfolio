@@ -11,8 +11,8 @@ const MyWorkCard = (props) => {
         <div className="proj-details">
             <p>{props.text}</p>
             <div className="proj-btns">
-                <a href="https://chit-chat-gjue.onrender.com/" target="_blank" rel="noreferrer" className="btn">View</a>
-                <a href="https://github.com/ankit2910/mern-chat-app" target="_blank" rel="noreferrer" className="btn">Source</a>
+                <a href={props.view} target="_blank" rel="noreferrer" className="btn">View</a>
+                <a href="https://github.com/ankit2910/" target="_blank" rel="noreferrer" className="btn">Source</a>
             </div>
         </div>
     </div>

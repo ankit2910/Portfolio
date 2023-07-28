@@ -13,7 +13,7 @@ const LandingPage = () => {
         </div>
         <div className="content">
             <p>HI, I'M A Full Stack Developer</p>
-            <h1>Web Developer</h1>
+            <h3>BlockChain Developer</h3>
             <div>
                 <Link to="/project" className="btn">Projects</Link>
             </div>
